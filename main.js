@@ -1,24 +1,19 @@
-let numberOne = 20;
-let numberTwo = 16;
+let numberOne = 22;
+let numberTwo = 20;
 
 
-
-
-
-const name = (numOne, numTwo) => {
-    if (numOne === 20) {
-        return result;
-    } else if (numTwo === 20)
-        return result; {
-    else (numOne + numTwo <= 20) {
-    return result;
+const sprawdz = (numOne, numTwo,) => {
+    let dodawanie = numOne + numTwo
+    if (dodawanie <= 20) {
+        return true;
+    } else if (numOne === 20) {
+        return true;
+    } else if (numTwo === 20) {
+        return true;
+    }
 }
-    
 
 
-
-
-
-console.log(name(numberOne, numberTwo));
+console.log(sprawdz(numberOne, numberTwo));
 
 
